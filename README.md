@@ -5,7 +5,7 @@ cd build
 cmake .. && make -j 4  
 cd python  
 python2.7  
-> import dtw
+> import dtw  
 > arr1 = dtw.vectorDouble()  
 > arr2 = dtw.vectorDouble()  
 > arr1.extend([1,2,3,4])  
